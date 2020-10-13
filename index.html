@@ -19,52 +19,82 @@
       </div>
     </header>
 
-    <main class="main">
-      <div class="main-overview">
-        <div class="small-card">
-          <div>Height</div>
-          <div class="ob-value" id="height">undefined</div>
+    <main class="main"> Vaccines Children
+      <div class="small-card">
+        <div class="MMR">
+          <table class="top" id="MMR">
+            <tr>
+              <th>MMR</th>
+              <th>Status</th>
+              <th>Date</th>
+            </tr>
+          </table>
         </div>
+
         <div class="small-card">
-          <div>Weight</div>
-          <div class="ob-value" id="weight">undefined</div>
+          <div class="IPV">
+            <table class="center" id="IPV">
+              <tr>
+                <th>IPV Dosages</th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </table>
+          </div>
         </div>
+
         <div class="small-card">
-          <div>Systolic Blood Pressure</div>
-          <div class="ob-value" id="sys">undefined</div>
+          <div class="BCG">
+            <table class="center" id="BCG">
+              <tr>
+                <th>BCG </th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </table>
+
+          </div>
         </div>
+
         <div class="small-card">
-          <div>Diastolic Blood Pressure</div>
-          <div class="ob-value" id="dia">undefined</div>
+          <div class="ROTO">
+            <table class="center" id="ROTO">
+              <tr>
+                <th>Rotoravirus Dosages </th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </table>
+          </div>
         </div>
+
         <div class="small-card">
-          <div>LDL</div>
-          <div class="ob-value" id="ldl">undefined</div>
+          <div class="PCV">
+            <table class="center" id="PCV">
+              <tr>
+                <th>PCV </th>
+                <th>Status</th>
+                <th>Date</th>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div class="small-card">
-          <div>HDL</div>
-          <div class="ob-value" id="hdl">undefined</div>
-        </div>
+
+
       </div>
+
 
       <div class="big-card">
         <div class="card">
-          <div class="title">
-            Add an Annotation for the Weight Observation
-          </div>
-        <span>  <input class="annotation-box" id="annotation">
-          <button class="annotation-button" id="add">Add</button></span>
-          <div class="annotations">
-          Latest Annotation
-          <li id="note">No annotations</li>
-          </div>
+
+          Vaciines Needed by Adults
+
         </div>
 
         <div class="card">
-          <div class="title">
-            Medication Requests
-          </div>
-          <ul id="med_list"></ul>
+
+          Vaccines needed by Above 60
+
         </div>
       </div>
 
@@ -75,7 +105,7 @@
   <script src="./lib/js/get-data.js"></script>
 
   <!-- uncomment below script and comment above script to switch for easy local testing -->
-  <!-- <script src="./lib/js/get-data-test.js"></script> -->
+  <!-- <script src="./lib/js/get-data-test.js"></script>-->
 </body>
 
 </html>
